@@ -10,19 +10,19 @@ Este repositório contém o **código fonte** do workshop **"Road to Meridian"**
 
 ## 📚 Estrutura do Workshop
 
-### **Aula 1: Contratos Inteligentes**
+### **Contratos Inteligentes**
 - **Localização**: `web3/`
 - **Tecnologias**: Rust + Soroban
 - **Abordagem**: **Compartilhado** - usado por ambas as aulas seguintes
 - **Objetivo**: Lógica de negócio na blockchain
 
-### **Aula 2: Frontend Descentralizado**
+### **Frontend Descentralizado**
 - **Localização**: `frontend/`
 - **Tecnologias**: React + TypeScript + Stellar SDK
 - **Abordagem**: **Descentralizada** - frontend se conecta diretamente aos contratos
 - **Objetivo**: Criar interface do usuário que interage diretamente com a blockchain
 
-### **Aula 3: Backend Educacional**
+### **Backend Educacional**
 - **Localização**: `backend/`
 - **Tecnologias**: Python + Stellar SDK
 - **Abordagem**: **Demonstração** - mostra as mesmas operações em Python
@@ -75,19 +75,19 @@ nearx-tap-game/
 
 ## 🔄 Fluxo de Aprendizado
 
-### **Aula 1: Contratos Inteligentes**
+### **Contratos Inteligentes**
 1. **Desenvolve** contratos em Rust
 2. **Testa** funcionalidades
 3. **Deploy** na blockchain
 4. **Prepara** base para frontend/backend
 
-### **Aula 2: Frontend Descentralizado**
+### **Frontend Descentralizado**
 1. **Conecta wallet** Stellar
 2. **Joga** o Tap Game (10 segundos)
 3. **Salva pontuação** diretamente no contrato
 4. **Visualiza ranking** em tempo real
 
-### **Aula 3: Backend Educacional**
+### **Backend Educacional**
 1. **Executa scripts** Python
 2. **Demonstra** as mesmas operações
 3. **Mostra logs** detalhados do processo
