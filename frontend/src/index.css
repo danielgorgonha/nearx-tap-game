@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 8-bit Minimalist - Only 5 colors allowed */
+
+@layer base {
+  :root {
+    /* 8-bit minimalist palette - only 5 colors */
+    --pixel-black: 0 0% 0%;
+    --pixel-white: 0 0% 100%;
+    --pixel-red: 0 100% 50%;
+    --pixel-green: 120 100% 25%;
+    --pixel-yellow: 60 100% 50%;
+  }
+
+
+}
+
+@layer base {
+  /* 8-bit minimalist styles */
+
+  .pixel-shadow {
+    text-shadow: 2px 2px 0px hsl(var(--pixel-black));
+  }
+
+  .pixel-border {
+    border: 3px solid hsl(var(--pixel-white));
+    box-shadow: 3px 3px 0px hsl(var(--pixel-black));
+  }
+
+  /* Botões com cores específicas */
+.btn-primary {
+  background-color: hsl(var(--pixel-white));
+  color: hsl(var(--pixel-black));
+  transition: all 0.1s ease;
+  box-shadow: 4px 4px 0px hsl(var(--pixel-black));
+}
+
+.btn-primary:hover {
+  background-color: hsl(var(--pixel-white) / 0.9);
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0px hsl(var(--pixel-black));
+}
+
+.btn-primary:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.btn-success {
+  background-color: hsl(var(--pixel-green));
+  color: hsl(var(--pixel-black));
+  transition: all 0.1s ease;
+  box-shadow: 4px 4px 0px hsl(var(--pixel-black));
+}
+
+.btn-success:hover {
+  background-color: hsl(var(--pixel-green) / 0.9);
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0px hsl(var(--pixel-black));
+}
+
+.btn-success:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.btn-warning {
+  background-color: hsl(var(--pixel-yellow));
+  color: hsl(var(--pixel-black));
+  transition: all 0.1s ease;
+  box-shadow: 4px 4px 0px hsl(var(--pixel-black));
+}
+
+.btn-warning:hover {
+  background-color: hsl(var(--pixel-yellow) / 0.9);
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0px hsl(var(--pixel-black));
+}
+
+.btn-warning:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.btn-danger {
+  background-color: hsl(var(--pixel-red));
+  color: hsl(var(--pixel-white));
+  transition: all 0.1s ease;
+  box-shadow: 4px 4px 0px hsl(var(--pixel-black));
+}
+
+.btn-danger:hover {
+  background-color: hsl(var(--pixel-red) / 0.9);
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0px hsl(var(--pixel-black));
+}
+
+.btn-danger:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+  body {
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    background-color: hsl(var(--pixel-black));
+    color: hsl(var(--pixel-white));
+  }
+
+  /* 8-bit background pattern */
+  .pixel-bg {
+    background-image: 
+      linear-gradient(45deg, hsl(var(--pixel-black)) 25%, transparent 25%),
+      linear-gradient(-45deg, hsl(var(--pixel-black)) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, hsl(var(--pixel-black)) 75%),
+      linear-gradient(-45deg, transparent 75%, hsl(var(--pixel-black)) 75%);
+    background-size: 8px 8px;
+    background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+  }
+}
