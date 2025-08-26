@@ -4,6 +4,18 @@
 
 Este repositório contém o **código fonte** do workshop **"Road to Meridian"** da NearX. Para documentação completa, slides, roteiros e recursos adicionais, consulte o [repositório principal](https://github.com/danielgorgonha/road-to-meridian).
 
+## 🖼️ Galeria do Jogo
+
+<div align="center">
+
+<img src="assets/game1.png" width="200" alt="Game Screenshot 1"> <img src="assets/game2.png" width="200" alt="Game Screenshot 2"> <img src="assets/game3.png" width="200" alt="Game Screenshot 3">
+
+<img src="assets/game4.png" width="200" alt="Game Screenshot 4"> <img src="assets/game5.png" width="200" alt="Game Screenshot 5">
+
+*Interface do Tap Game - Jogo de toque com pontuação na blockchain Stellar*
+
+</div>
+
 ## 🎯 Sobre o Road to Meridian
 
 **Meridian** é o maior evento global da Stellar, combinando hackathon + conferência. O evento acontecerá nos dias **17-18 de setembro de 2025** no **Copacabana Palace, Rio de Janeiro**.
